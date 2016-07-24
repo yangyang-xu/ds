@@ -240,8 +240,9 @@
 .des_info .rightArea{width:790px;}
 .recommend .tit{height: 39px;border-top: #3F61CB solid 2px;border-bottom: #ccc solid 1px;line-height: 39px;text-indent: 15px;font-size: 14px;background-color: #F3F3F3;}
 .recommend_item{overflow: hidden; background-color: #fff;}
+.recommend_item .introduction{padding:0 10px;}
 .recommdend_img{width: 189px;}
-.recommend_item .price{color:#DB1111;}
+.recommend_item .price{color:#DB1111;padding-left: 10px;}
 
 .des_infoContent{background-color: #fff;overflow: hidden;}
 .des_tit{height: 39px;border-bottom: #ccc solid 1px;background: url(../images/bc_grey.jpg) center center repeat-x;}
@@ -278,3 +279,21 @@
 .advisory .promt{padding: 5px 10px;background-color: #F3F3F3;line-height: 25px;}
 .service{background: url(../images/service.jpg)left top no-repeat;padding: 20px 0;}
 .advisory .time{margin-left: 360px;}
+
+/*购物车*/
+.setpBox{margin-top: 25px;width: 398px;}
+.step{background: url(../images/step.jpg) left top no-repeat;height: 19px;}
+.step_text li{float: left;}
+.s01{width: 30%;}
+.s02{width: 40%;text-align: center;}
+.s03{width: 30%;text-align: right;}
+.shoppingCart{border: #ccc solid 1px;}
+.cart_tit{background: url(../images/cart.jpg) left top repeat-x;height: 31px;line-height: 31px;padding-left: 10px;color: #444;font: 16px/31px "Microsoft YaHei","微软雅黑";}
+.padding_cont{padding: 25px 30px;}
+.cart_list_text{float: left;width: 76px;line-height: 24px;}
+.cart_list_li{height: 24px;margin-bottom: 10px;}
+.cart_list_text em{color: #D52E2E;font-style: normal;margin-right: 2px;}
+.input{height: 22px;border: #ccc solid 1px;padding: 0 6px;}
+.dash{margin: 0 2px;}
+.affirm{background: url(../images/icon/affirm.jpg) left top no-repeat;width: 114px;height: 28px;}
+.radio{position: relative;top: 3px;margin-right: 4px;}
