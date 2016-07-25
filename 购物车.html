@@ -36,6 +36,7 @@
 	</div>
 </div>
 <div class="shoppingCart comWidth">
+	<div class="hr_7"></div>
 	<div class="cart_item">
 		<h3 class="cart_tit">收货信息</h3>
 		<div class="cart_cont padding_cont">
@@ -58,18 +59,115 @@
 	</div>
 	<div class="hr"></div>
 	<div class="cart_item">
-		<h3 class="cart_tit">收货信息</h3>
+		<h3 class="cart_tit">支付方式</h3>
 		<div class="cart_cont padding_cont">
 			<ul class="cart_list">
-				
-				<li> <input type="radio" class="radio" id="r1"><label for="r1">微信支付</label>微信扫一扫</li>
-				<li> <input type="radio" class="radio" id="r2"><label for="r2">微信支付</label>微信扫一扫</li>
-				
-				
+				<li class="radio"> <input type="radio" name="payment" value="微信支付">微信支付</li>
+				<li class="radio"> <input type="radio" name="payment" value="到付现金">现金到付</li>
 			</ul>
 		</div>
 	</div>
-	
+	<div class="hr"></div>
+	<div class="cart_item">
+		<h3 class="cart_tit">发票信息</h3>
+		<div class="cart_cont padding_cont">
+			<ul class="cart_list clearfix">
+				
+				<li class="cart_list_li"><span class="cart_list_text"><em><input type="checkbox" name="nation"></em>需要发票</span></li>
+				<li class="cart_list_li"><span class="cart_list_text"><em>*</em>发票类型</span>
+				<select name="fason"style="width: 100px; border: #ccc solid 1px;">                 
+				<option value="">增值税</option>                            
+				<option value="">个人</option>                            
+				<option value="">单位</option>                            
+				<option value="">餐饮</option>                            
+				</select>
+				</li>
+				<li class="cart_list_li"><span class="cart_list_text"><em>*</em>发票抬头</span>
+				<select name="fason"style="width: 100px; border: #ccc solid 1px;">                 
+				<option value="">个人</option>                            
+				<option value="">个人</option>                            
+				<option value="">单位</option>                            
+				<option value="">餐饮</option> 
+				<input type="text" value="最多输入10个字" class="input" >                          
+				</select>
+				</li>
+				<li><input type="button" value="保存" class="sure">&nbsp;<input type="button" value="取消" class="sure"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="cart_item">
+		<h3 class="cart_tit">送货清单<a href="#" class="backcar">返回购物车修改</a></h3>
+		<div class="cart_cont">
+			<div class="cart_inner">
+				<div class="cart_head">
+					<div class="cart_item_full t_name">商品名称</div>
+					<div class="cart_item_full t_price">单价</div>
+					<div class="cart_item_full t_return">返现</div>
+					<div class="cart_item_full t_num">数量</div>
+					<div class="cart_item_full t_subtotal">小计</div>
+
+				</div>
+			</div>	
+		</div>
+		<div class="cart_cont">
+			<div class="cart_inner">
+				<div class="cart_body clearfix">
+					<div class="cart_item_full t_name">
+						<div class="cart_info">
+							<img src="images/htc.jpg" alt="">
+							<div class="cart_info_conts">
+								<p class="cart_link"><a href="#">海信卡莎蒂</a></p>
+								<p class="cart_info_full">赠品：海飞丝洗发水</p>
+							</div>
+						</div>
+					</div>
+					<div class="cart_item_full t_price">¥1459.00</div>
+					<div class="cart_item_full t_return">¥20.00</div>
+					<div class="cart_item_full t_num">1</div>
+					<div class="cart_item_full t_subtotal">1</div>
+
+
+				</div>
+			</div>	
+		</div>
+		<div class="cart_message">
+			若有问题请留言
+		</div>
+		<div class="cart_promt"><i class="cart_promt_icon"></i>抱歉，一下商品不能购买</div>
+		<div class="cart_cont">
+			<div class="cart_inner">
+				<div class="cart_body clearfix">
+					<div class="cart_item_full t_name">
+						<div class="cart_info clearfix">
+							<img src="images/htc.jpg" alt="">
+							<div class="cart_info_no fl">
+								<p class="cart_link_no"><a href="#">心心相印</a></p>
+								<p class="cart_link_no"><a href="#">数量：1件</a></p>
+								<p class="cart_link_no"><a href="#">价格：(¥49.00)</a></p>
+							</div>
+						</div>
+					</div>
+					
+
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="cart_item">
+		<h3 class="cart_tit">订单结算</h3>
+		<div class="cart_cont clearfix">
+			<div class="cart_count fr">
+				<div class="cart_rmb">
+					<i>总计：</i><span>¥145955555.00</span>
+				</div>
+				<div class="cart_btnBox">
+				<input type="button" class="cart_btn" value="提交订单">
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="hr"></div>
