@@ -15,8 +15,8 @@
 .search_text{width:350px;height:35px;line-height:35px\9;background:#fff;padding:0 5px;}
 .search_btn{width:70px;height:35px;font-size:14px;font-family:"微软雅黑";background-color:#FF8C00;color:#FFF;}
 .shopCar{width:145px;height:35px;background-color:#FF8C00;font:14px/35px "微软雅黑", "Microsoft YaHei";color:#fff;margin-top:23px;margin-right:59px;}
-.shopText{height:100%;width:87px;border-right:#E27A00 1px solid;background:url(../images/icon/shopcar.jpg) 10px center no-repeat;text-indent:40px;}
-.shopNum{height:35px;width:27px;border-left:#FF9C01 1px solid;background:url(../images/icon/shopnum.jpg) 33px center no-repeat;text-align:right;padding-right:29px;}
+.shopText{color:#FFF;height:100%;width:87px;border-right:#E27A00 1px solid;background:url(../images/icon/shopcar.jpg) 10px center no-repeat;text-indent:40px;}
+.shopNum{color:#FFF;height:35px;width:27px;border-left:#FF9C01 1px solid;background:url(../images/icon/shopnum.jpg) 33px center no-repeat;text-align:right;padding-right:29px;}
 /*导航*/
 .navBox{height:35px;background-color:#1369C0;}
 .shopClass{width:190px;position:relative;}
